@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh_autogen/mocs_compilation.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/mocs_compilation.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/Bezier/Bezier.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Bezier/Bezier.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Bezier/Bezier.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/Implicits/MyImplicitSurf.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Implicits/MyImplicitSurf.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Implicits/MyImplicitSurf.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/Implicits/Node.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Implicits/Node.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Implicits/Node.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/Utils.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Utils.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/Utils.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/box.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/box.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/box.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/camera.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/camera.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/camera.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/evector.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/evector.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/evector.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/implicits.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/implicits.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/implicits.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/main.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/main.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/main.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/mesh-widget.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/mesh-widget.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/mesh-widget.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/mesh.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/mesh.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/mesh.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/meshcolor.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/meshcolor.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/meshcolor.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/qtemainwindow.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/qtemainwindow.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/qtemainwindow.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/ray.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/ray.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/ray.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/shader-api.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/shader-api.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/shader-api.cpp"
+},
+{
+  "directory": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/AppTinyMesh_autogen/include\" -I\"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Include\" -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/germanshab/Qt/6.8.0/gcc_64/include -isystem /home/germanshab/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGL -isystem /home/germanshab/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets  -fopenmp -g -fPIC -std=gnu++17 -o CMakeFiles/AppTinyMesh.dir/AppTinyMesh/Source/triangle.cpp.o -c \"/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/triangle.cpp\"",
+  "file": "/home/germanshab/UNIV LCP1/MOD GEO/Qt/AppTinyMesh/Source/triangle.cpp"
+}
+]

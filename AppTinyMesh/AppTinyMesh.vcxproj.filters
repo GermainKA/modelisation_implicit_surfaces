@@ -41,6 +41,8 @@
     <ClCompile Include="Source\implicits.cpp">
       <Filter>Source\Core</Filter>
     </ClCompile>
+    <ClCompile Include="Bezier.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Include\qte.h">
@@ -104,6 +106,8 @@
     <ClInclude Include="Include\implicits.h">
       <Filter>Include</Filter>
     </ClInclude>
+    <ClInclude Include="Bezier.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\mesh.glsl">

@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.1)
-
+set(CMAKE_PREFIX_PATH "/home/germanshab/Qt/6.8.0/gcc_64")  
 project(AppTinyMesh)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -14,9 +14,8 @@ endif()
 qt_standard_project_setup()
 
 if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Debug)
+    set(CMAKE_BUILD_TYPE Release)
 endif()
-
 if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     set(CMAKE_CXX_FLAGS_DEBUG "-g")
     set(CMAKE_CXX_FLAGS_RELEASE "-O3")
@@ -32,19 +31,33 @@ if(OPENMP_FOUND)
 endif()
 
 # ------------------------------------------------------------------------------
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(APP AppTinyMesh)
-set(SRC_DIR AppTinyMesh/Source)
-set(INC_DIR AppTinyMesh/Include)
+set(SRC_DIR "${CMAKE_SOURCE_DIR}/AppTinyMesh/Source")
+set(INC_DIR "${CMAKE_SOURCE_DIR}/AppTinyMesh/Include")
+set(UI_DIR "${CMAKE_SOURCE_DIR}/AppTinyMesh/UI") 
+
 include_directories(${INC_DIR})
-aux_source_directory(${SRC_DIR} SRC_FILES)
+
+#aux_source_directory(${SRC_DIR} SRC_FILES)
+
+file(GLOB_RECURSE SRC_FILES "${SRC_DIR}/*.cpp")
+file(GLOB_RECURSE INC_FILES "${INC_DIR}/*.h")
+
+# Définir le chemin de recherche pour AutoUic
+set(CMAKE_AUTOUIC_SEARCH_PATHS "${UI_DIR}")
+
+# qt6_wrap_ui pour générer les fichiers d'en-tête à partir des fichiers .ui
+set(UI_FILES ${UI_DIR}/interface.ui)
+qt6_wrap_ui(UI_HEADERS ${UI_FILES})
+
 add_executable(${APP} WIN32 
     ${SRC_FILES}
+    ${UI_HEADERS}  # les fichiers d'en-tête générés
     ${INC_DIR}/box.h
     ${INC_DIR}/camera.h
     ${INC_DIR}/color.h
-    ${INC_DIR}/GL.h
-    ${INC_DIR}/glew.h
     ${INC_DIR}/implicits.h
     ${INC_DIR}/mathematics.h
     ${INC_DIR}/mesh.h
@@ -54,6 +67,7 @@ add_executable(${APP} WIN32
     ${INC_DIR}/realtime.h
     ${INC_DIR}/shader-api.h
 )
+
 set_target_properties(${APP} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR})
 
 # window target exe
@@ -107,7 +121,7 @@ if (WIN32)
         TARGET ${APP} POST_BUILD
         COMMAND "${_qt_bin_dir}/windeployqt.exe" ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/AppTinyMesh.exe
     )
-	
+    
     # copy glew32.dll
     add_custom_command(
         TARGET ${APP} POST_BUILD

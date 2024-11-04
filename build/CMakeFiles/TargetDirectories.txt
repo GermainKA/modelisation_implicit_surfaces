@@ -1,0 +1,4 @@
+/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/CMakeFiles/AppTinyMesh.dir
+/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/CMakeFiles/edit_cache.dir
+/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/CMakeFiles/rebuild_cache.dir
+/home/germanshab/UNIV LCP1/MOD GEO/Qt/build/CMakeFiles/AppTinyMesh_autogen.dir

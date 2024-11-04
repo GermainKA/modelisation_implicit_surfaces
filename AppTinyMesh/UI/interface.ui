@@ -56,36 +56,385 @@
       <property name="title">
        <string/>
       </property>
-      <widget class="QPushButton" name="boxMesh">
+      <widget class="QWidget" name="verticalLayoutWidget">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>20</y>
-         <width>101</width>
-         <height>23</height>
+         <x>10</x>
+         <y>60</y>
+         <width>331</width>
+         <height>729</height>
         </rect>
        </property>
-       <property name="toolTip">
-        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#5500ff;&quot;&gt;Callback #01&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#aa00ff;&quot;&gt;Create Eurographics 1996 Bear&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="text">
-        <string>Box Mesh</string>
-       </property>
-       <property name="checkable">
-        <bool>false</bool>
-       </property>
+       <layout class="QVBoxLayout" name="tpVerticalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>                             BEZIER SURFACES</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Performance Tests</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>Degrees</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="degreespinBox">
+              <property name="minimum">
+               <number>3</number>
+              </property>
+              <property name="maximum">
+               <number>15</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>Resolution</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="resolutionspinBox">
+              <property name="maximum">
+               <number>200</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLineEdit" name="bezierPerfLine">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="placeholderText">
+             <string>Compute Time</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="deCastelJauBtn">
+            <property name="text">
+             <string>DeCastelJau</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BersteinBtn">
+            <property name="text">
+             <string>Bernstein</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>Exemple of Bezier Surfaces</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QPushButton" name="teapotBtn">
+            <property name="text">
+             <string>Teapot</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="teacupBtn">
+            <property name="text">
+             <string>TeaCup</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QPushButton" name="spoonBtn">
+            <property name="text">
+             <string>Spoon</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="gumboBtn">
+            <property name="text">
+             <string>Gumbo</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="bezierExempleComputeTime">
+          <property name="placeholderText">
+           <string>Exemple Compute Time</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>                           IMPLICIT SURFACES</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>Performance Evaluation (10e7 Call)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QFormLayout" name="formLayout_2">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="evalUnitSphereBtn">
+            <property name="text">
+             <string>Eval Sphere </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="evalSphereLine"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="evalUnitBoxBtn">
+            <property name="text">
+             <string>Eval Box       </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="evalBoxLine"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="evalTorusBtn">
+            <property name="text">
+             <string>Eval Torus    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="evalTorusLine"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="evalCapsuleBtn">
+            <property name="text">
+             <string>Eval Capsule</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="evalCapsLine"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="evamCylinderBtn">
+            <property name="text">
+             <string>Eval Cylinder</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="evalCylinderLine"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QPushButton" name="implHeraBuildBtn">
+            <property name="text">
+             <string>Hirachique Construction</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="implConstLine">
+          <property name="placeholderText">
+           <string>Construction Time</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>Incremental Erosion</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Nbrs of Rays</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="nbRayIncspinBox">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>200</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="incEroLine"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="incEroBtn">
+            <property name="text">
+             <string>Apply Inc erosion  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>Packet Erosion (10 / Rays )</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>Nbrs of Rays</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="nbRayPacketspinBox">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>200</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="addPacketLine"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addPacketEroBtn">
+            <property name="text">
+             <string>Apply Pck Erosion</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>                             DEFORMATION</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="baseSurfBtn">
+          <property name="text">
+           <string>Base Surfaces</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_20">
+          <item>
+           <widget class="QPushButton" name="applyDeformationBtn">
+            <property name="text">
+             <string>Apply Local Deform</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="addPacketLine_2"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addPacketEroBtn_2">
+            <property name="text">
+             <string>Apply Glob Deform </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
       </widget>
       <widget class="QPushButton" name="resetcameraButton">
        <property name="geometry">
         <rect>
-         <x>140</x>
+         <x>120</x>
          <y>20</y>
-         <width>81</width>
+         <width>91</width>
          <height>23</height>
         </rect>
        </property>
@@ -108,11 +457,35 @@ p, li { white-space: pre-wrap; }
         <bool>false</bool>
        </property>
       </widget>
+      <widget class="QPushButton" name="boxMesh">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>20</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#5500ff;&quot;&gt;Callback #01&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#aa00ff;&quot;&gt;Create Eurographics 1996 Bear&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>Box Mesh</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
       <widget class="QPushButton" name="sphereImplicit">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>50</y>
+         <x>10</x>
+         <y>20</y>
          <width>101</width>
          <height>23</height>
         </rect>
@@ -130,6 +503,19 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="checkable">
         <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>0</y>
+         <width>74</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Default APP</string>
        </property>
       </widget>
      </widget>
@@ -189,7 +575,7 @@ p, li { white-space: pre-wrap; }
          </rect>
         </property>
         <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
         </property>
        </widget>
        <widget class="QLabel" name="label_3">
@@ -218,7 +604,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
         </property>
        </widget>
       </widget>
@@ -283,6 +669,68 @@ p, li { white-space: pre-wrap; }
         </property>
        </widget>
       </widget>
+      <widget class="QPushButton" name="addPacketEroBtn_3">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>200</y>
+         <width>129</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Apply Glob Deform </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="applyDeformationBtn_2">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>200</y>
+         <width>130</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Apply Local Deform</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>147</y>
+         <width>329</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>                             DEFORMATION</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="addPacketLine_3">
+       <property name="geometry">
+        <rect>
+         <x>148</x>
+         <y>200</y>
+         <width>56</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="baseSurfBtn_2">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>169</y>
+         <width>329</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base Surfaces</string>
+       </property>
+      </widget>
      </widget>
     </item>
    </layout>
@@ -293,7 +741,7 @@ p, li { white-space: pre-wrap; }
      <x>0</x>
      <y>0</y>
      <width>1200</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">

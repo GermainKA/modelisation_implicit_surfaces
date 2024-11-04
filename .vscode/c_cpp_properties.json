@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/AppTinyMesh/Include",
+                "${HOME}/Qt/6.8.0/gcc_64/include",
+                "${HOME}/Qt/6.8.0/gcc_64/include/QtCore",
+                "${HOME}/Qt/6.8.0/gcc_64/include/QtWidgets",
+                "${HOME}/Qt/6.8.0/gcc_64/include/QtGui",
+                "${HOME}/Qt/6.8.0/gcc_64/include/QtOpenGL",
+                "${HOME}/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

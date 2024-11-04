@@ -347,6 +347,7 @@ inline Vector operator/ (const Vector& u, const Vector& v)
   return Vector(u.c[1] * v.c[2] - u.c[2] * v.c[1], u.c[2] * v.c[0] - u.c[0] * v.c[2], u.c[0] * v.c[1] - u.c[1] * v.c[0]);
 }
 
+
 //! Left multiply by a scalar
 inline Vector operator/ (const Vector& u, double a)
 {

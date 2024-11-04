@@ -23,7 +23,7 @@ Indices must have a size multiple of three (three for triangle vertices and thre
 \param vertices List of geometry vertices.
 \param indices List of indices wich represent the geometry triangles.
 */
-Mesh::Mesh(const std::vector<Vector>& vertices, const std::vector<int>& indices) :vertices(vertices), varray(indices)
+Mesh::Mesh(const std::vector<Vector>& vertices, const std::vector<int>& indices) :vertices(vertices), varray(indices),narray(indices)
 {
   normals.resize(vertices.size(), Vector::Z);
 }
@@ -307,3 +307,54 @@ void Mesh::SaveObj(const QString& url, const QString& meshName) const
   data.close();
 }
 
+
+
+//TP
+//Generate surface from Bezier verices configuration
+void Mesh::GenerateFromBezier(const Vector* result, int resolution, int m, int n) {
+    vertices.clear();
+    varray.clear();
+
+
+    for (int i = 0; i < resolution; ++i) {
+        for (int j = 0; j < resolution; ++j) {
+            vertices.push_back(result[i * resolution + j]);
+        }
+    }
+
+
+    for (int i = 0; i < resolution - 1; ++i) {
+        for (int j = 0; j < resolution - 1; ++j) {
+            int idx1 = i * resolution + j;
+            int idx2 = idx1 + 1;
+            int idx3 = idx1 + resolution;
+            int idx4 = idx3 + 1;
+
+            varray.push_back(idx1);
+            varray.push_back(idx3);
+            varray.push_back(idx2);
+
+            varray.push_back(idx2);
+            varray.push_back(idx3);
+            varray.push_back(idx4);
+        }
+    }
+}
+//Merge Mesh (Not Connected)
+void Mesh::Merge(const Mesh& mesh)
+{
+  // Save Size
+  int vertexOffset =static_cast<int>(vertices.size());
+  int normalOffset =static_cast<int>(normals.size());
+
+  // Inser Vertices and Normals
+  vertices.insert(vertices.end(), mesh.vertices.begin(), mesh.vertices.end());
+  normals.insert(normals.end(), mesh.normals.begin(), mesh.normals.end());
+
+  // Ajust & Add VARRAY & NARRAY
+  for (size_t i = 0; i < mesh.varray.size(); ++i)
+  {
+    varray.push_back(mesh.varray[i] + vertexOffset);
+  }
+  narray = varray;
+}

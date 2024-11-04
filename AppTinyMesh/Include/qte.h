@@ -31,6 +31,24 @@ public slots:
   void SphereImplicitExample();
   void ResetCamera();
   void UpdateMaterial();
+
+//TP
+  void bernsteinEval();
+  void deCastelJauEval();
+  void displaySpoon();
+  void displayTeapot();
+  void displayTeacup();
+  void displayGumbo();
+  // void displayBaseSurfaces();
+  // void applyDeformation();
+  void evaluateSphere();
+  void evaluateUnitBox();
+  void evaluateTorus();
+  void evaluateCapsule();
+  void evaluateCylinder();
+  void hierarchicalConstruction();
+  void addPacketErosion();
+  void incrementalErosion();
 };
 
 #endif

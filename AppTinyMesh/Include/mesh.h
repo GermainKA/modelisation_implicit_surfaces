@@ -123,6 +123,10 @@ public:
 
   void Load(const QString&);
   void SaveObj(const QString&, const QString&) const;
+  //TP
+  void GenerateFromBezier(const Vector* result, int resolution, int m, int n);
+  void Merge(const Mesh& mesh);
+
 protected:
   void AddTriangle(int, int, int, int);
   void AddSmoothTriangle(int, int, int, int, int, int);
